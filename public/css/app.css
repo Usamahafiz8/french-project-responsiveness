@@ -162,3 +162,52 @@
     flex-direction: column;
     justify-content: center;
 }
+
+/* card */
+.main-cards {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mian-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.main-card-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-name{
+    font-size: large;
+    font-weight: 600;
+    color: #54ba9e;
+}
+
+.card-button{
+    text-align: center;
+    color: #fff;
+    background-color: #02865a;
+    padding: 2px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card-label{
+    font-weight: 400;
+}
