@@ -4,37 +4,36 @@
         <h4><span style="color: #54ba9e;">facade Ouest</span></h4>
     </div>
 </div>
-<hr color=' #54ba9e' >
+<hr color=' #54ba9e'>
 
 
 <div class="row">
     <div class="col-lg-12 align-self-center">
-    <div class="table-responsive">
-        <div class="table-wrapper">
-            <div class="table-title">
-                <div class="row">
-                    <div class="col-sm-8"></div>
-                    <div class="col-sm-4">
-                    <input type="button" value="Delete Row" class="s10_deleteRow deleteRow btn btn-danger btn-sm">
-                        <input type="button" value="Add Row" class="s10_addRows addRows btn btn-success btn-sm">
-                        
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-sm-8"></div>
+            <div class="col-sm-4">
+                <input type="button" value="Delete Row" class="s10_deleteRow deleteRow btn btn-danger btn-sm">
+                <input type="button" value="Add Row" class="s10_addRows addRows btn btn-success btn-sm">
             </div>
-            <table class="table table-bordered" id="s10_rowsTable">
-           <tr>
-               <th>sélectionner</th>
-               <th>Type d’ouverture</th>
-               <th>Nbr</th>
-               <th>L(m) </th>
-               <th>H(m)</th>
-               <th>Huisserie</th>
-               <th>Vitrage</th>
-               <th>Volet</th>
-           </tr>
-           <tr>
-               <td class="s10_td1"><input type="checkbox" name="s10_record"></td>
-               <td class="s10_td1">
+        </div>
+        <div class="table-responsive">
+            <div class="table-wrapper" style="width: 90vh;">
+                <!-- <div class="table-title">
+                </div> -->
+                <table class="table table-bordered" id="s10_rowsTable">
+                    <tr>
+                        <th>sélectionner</th>
+                        <th>Type d’ouverture</th>
+                        <th>Nbr</th>
+                        <th>L(m) </th>
+                        <th>H(m)</th>
+                        <th>Huisserie</th>
+                        <th>Vitrage</th>
+                        <th>Volet</th>
+                    </tr>
+                    <tr>
+                        <td class="s10_td1"><input type="checkbox" name="s10_record"></td>
+                        <td class="s10_td1">
                             <select name="s10_kind_opening" class="form_select_opt s10_kind_opening form-control">
                                 <option value="0" selected>Fenêtre</option>
                                 <option value="1">Porte-fenêtre </option>
@@ -44,7 +43,7 @@
                                 <option value="5"> PF coulissante </option>
                                 <option value="6"> Porte de garage </option>
                                 <option value="7"> Brique de verre </option>
-                            </select>    
+                            </select>
                         </td>
                         <td class="s10_td1"><input class="form-control s10_cop_no" type="text" name="s10_cop_no"></td>
                         <td class="s10_td1"><input class="form-control s10_cop_length" type="text" name="s10_cop_length"></td>
@@ -55,41 +54,43 @@
                                 <option value="Bios"> Bios </option>
                                 <option value="Alu"> Alu </option>
                                 <option value="Aucun"> Aucun </option>
-                            </select>    
+                            </select>
                         </td>
                         <td class="s10_td1">
                             <select name="s10_glazing" class="form_select_opt form-control">
                                 <option value="0" selected>Simple vitrage</option>
                                 <option value="1"> Double vitrage ancien (>10 ans) </option>
-                                <option value="2"> Double vitrage récent (< 10 ans)  </option>
+                                <option value="2"> Double vitrage récent (< 10 ans) </option>
                                 <option value="3"> Double vitrage VIR </option>
-                                <option value="4"> Double fenêtre  </option>
+                                <option value="4"> Double fenêtre </option>
                                 <option value="5"> Aucun </option>
-                            </select>    
+                            </select>
                         </td>
                         <td class="s10_td1">
                             <select name="s10_shutter" class="form_select_opt form-control">
                                 <option value="0" selected>Volet avec ajours </option>
                                 <option value="1"> Volets battants bois </option>
-                                <option value="2"> Volets battants PVC  </option>
-                                <option value="3"> Volets roulants PVC  </option>
+                                <option value="2"> Volets battants PVC </option>
+                                <option value="3"> Volets roulants PVC </option>
                                 <option value="4"> Volets roulants alu </option>
                                 <option value="5"> Persiennes coulissantes </option>
                                 <option value="6"> Aucun </option>
-                            </select>    
+                            </select>
                         </td>
-           </tr>
-           </table>
+                    </tr>
+                </table>
+            </div>
         </div>
-    </div>
     </div><!---col-lg-9---->
 </div>
+<br/>
+<hr color=' #54ba9e' >
 <div class="row">
     <div class="col-lg-2">
-    <label for="s10_photo">Photo</label>
+        <label for="s10_photo">Photo</label>
     </div>
     <div class="col-lg-3">
-    <input class="form-control" type="file" name="s10_photo">
+        <input class="form-control" type="file" name="s10_photo">
     </div>
     <div class="col-lg-7">
     </div>
@@ -97,15 +98,15 @@
 
 <div class="row">
     <div class="col-lg-2 align-self-center">
-    <h4>Comments</h4>
+        <h4>Comments</h4>
     </div>
     <div class="col-lg-10">
-    <textarea name="s10_comments" class="form-control" rows="5"></textarea>
+        <textarea name="s10_comments" class="form-control" rows="5"></textarea>
     </div>
 </div>
-<hr color=' #54ba9e' >
+<hr color=' #54ba9e'>
 
-    <div class="text-right">
-        <button type="button" class="btn btn-primary prev">précédente</button>
-        <button type="button" class="btn btn-primary next">sauvegarder et suivant</button>
-    </div>    
+<div class="text-right">
+    <button type="button" class="btn btn-primary prev">précédente</button>
+    <button type="button" class="btn btn-primary next">sauvegarder et suivant</button>
+</div>
