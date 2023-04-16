@@ -10,7 +10,7 @@
 <div class="container-xl">
 
     <!-- Main Heading of the App -->
-    <div class='table-res' style='margin-top:64px'>
+    <div class='table-res' style='margin-top:32px'>
         <div class='table-heading'>
             <h1>Manage <b>Customers</b></h1>
             <br />
@@ -23,28 +23,18 @@
     </div>
 
     <!-- Table -->
-    <div class="table-responsive">
-        <div class="table-wrapper">
-            <!-- <div class="table-title"> -->
-            <div class="row">
-                <!-- <div class="col-sm-6">
-					</div>
-                     -->
-                <!-- <div class="col-sm-6">
-						 <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Delete</span></a>
-					</div> -->
+    <!-- <div class="table-responsive">
+        <div class="table-wrapper"> -->
+    <div class="row">
+        <div class="col-sm-12">
+            @if(!empty(session('success')))
+            <div class="alert alert-success">
+                {{ session('success') }}
             </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    @if(!empty(session('success')))
-                    <div class="alert alert-success">
-                        {{ session('success') }}
-                    </div>
-                    @endif
-                </div>
-            </div>
-            <!-- </div> -->
-            <table class="table table-striped table-hover">
+            @endif
+        </div>
+    </div>
+    <!-- <table class="table table-striped table-hover">
                 <thead>
                     <tr>
                         <th>Sr#</th>
@@ -79,10 +69,41 @@
                     </tr>
                     @endforeach
                 </tbody>
-            </table>
-
+            </table> -->
+    <!-- 
         </div>
+    </div> -->
+</div>
+<!-- card -->
+<hr color=' #54ba9e'>
+<div class="main-cards">
+    <?php $i = 0; ?>
+    @foreach ($customer_data as $info)
+    <div class="mian-card" style="display: flex;">
+        <div class="main-card-top">
+            <div class="card-name">
+                {{$info->name}}
+            </div>
+            <a href="#deleteEmployeeModal" class="delete" data-toggle="modal">
+                <i class="material-icons" style="color: #c30606;" data-toggle="tooltip" title="Delete">&#xE872;</i>
+            </a>
+        </div>
+        <div>
+            Email: &nbsp; {{$info->email}} <br />
+            Address: &nbsp; {{$info->address}}<br />
+            Contact: &nbsp; {{$info->contact}}<br />
+            No. of people:&nbsp;{{$info->people_on_hearth}}<br />
+            Tax Income:&nbsp; {{$info->tax_income}}<br />
+        </div>
+        <hr color=' #54ba9e'>
+
+        <a href="{{route('customers', ['id' => $info->id])}}" class="edit">
+            <div class="card-button">
+                Edit
+            </div>
+        </a>
     </div>
+    @endforeach
 </div>
 
 
