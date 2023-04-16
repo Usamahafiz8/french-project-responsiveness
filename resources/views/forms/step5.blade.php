@@ -1,50 +1,51 @@
-<div class="row">
+<div class="text-heading">
     <div class="col-lg-12 align-self-center">
-        <h2><span style="color: #54ba9e;">Configuration des murs extérieurs</span></h2>
-        <h4><span style="color: #54ba9e;">facade est</span></h4>
+        Configuration des murs extérieurs
+        <br />
+        facade est
     </div>
 </div>
-<hr color=' #54ba9e' >
+<hr color=' #54ba9e'>
 
 
 <div class="row">
     <div class="col-lg-3 align-self-center">
-    <h4>Composition du mur extérieur</h4>
+        <h4>Composition du mur extérieur</h4>
     </div>
     <div class="col-lg-9">
-    <div class="row">
+        <div class="row">
             <div class="col-lg-4">
                 <div class="form-group">
                     <label for="s5_rock">Pierre</label>
                     <select name="s5_rock" class="form_select_opt form-control">
-                    <option value="2" selected>Pierres locales maçonées</option>
-                    <option value="1"> Pierres meuliéres</option>
-                    <option value="3"> Autre</option>
-                    <option value="0"> Non</option>
-                    </select>    
+                        <option value="2" selected>Pierres locales maçonées</option>
+                        <option value="1"> Pierres meuliéres</option>
+                        <option value="3"> Autre</option>
+                        <option value="0"> Non</option>
+                    </select>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="form-group">
                     <label for="s5_concrete">Béton</label>
                     <select name="s5_concrete" class="form_select_opt form-control">
-                    <option value="1" selected>Parpaing</option>
-                    <option value="2">Béton banché </option>
-                    <option value="3">Béton de mâchefer</option>
-                    <option value="4">Béton cellulaire</option>
-                    <option value="0"> Non</option>
-                    </select>    
+                        <option value="1" selected>Parpaing</option>
+                        <option value="2">Béton banché </option>
+                        <option value="3">Béton de mâchefer</option>
+                        <option value="4">Béton cellulaire</option>
+                        <option value="0"> Non</option>
+                    </select>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="form-group">
                     <label for="s5_brick">Brique</label>
                     <select name="s5_brick" class="form_select_opt form-control">
-                    <option  selected value="3">Brique pleine</option>
-                    <option value="2"> Brique alvéolée</option>
-                    <option value="1">Brique creuse</option>
-                    <option value="0"> Non</option>
-                    </select>    
+                        <option selected value="3">Brique pleine</option>
+                        <option value="2"> Brique alvéolée</option>
+                        <option value="1">Brique creuse</option>
+                        <option value="0"> Non</option>
+                    </select>
                 </div>
             </div>
         </div><!---- row end--->
@@ -56,20 +57,20 @@
                         <option value="2" selected>Pisé</option>
                         <option value="1">Torchis / Pan de bois</option>
                         <option value="0">Non</option>
-                    </select>    
+                    </select>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="form-group">
                     <label for="s5_drink">Bois</label>
                     <select name="s5_drink" class="form_select_opt form-control">
-                    <option  selected value="2">Madrier</option>
-                    <option value="1">Ossature bois</option>
-                    <option value="0">Non</option>
-                    </select>    
+                        <option selected value="2">Madrier</option>
+                        <option value="1">Ossature bois</option>
+                        <option value="0">Non</option>
+                    </select>
                 </div>
             </div>
-            
+
         </div><!---- row end--->
         <div class="row">
             <div class="col-lg-3">
@@ -82,12 +83,13 @@
                 <div class="form-group">
                     <label for="s5_insulation">Isolation</label>
                     <select name="s5_insulation" class="form_select_opt form-control">
-                    <option value="0" selected>Aucune</option>
-                    <option value="1"> > 10 ans </option>
-                    <option value="2"> 5 to 10 ans </option>
-                    <option value="3"> < 5 ans </option>
-                    <option value="4">Je ne sais pas </option>
-                    </select>    
+                        <option value="0" selected>Aucune</option>
+                        <option value="1"> > 10 ans </option>
+                        <option value="2"> 5 to 10 ans </option>
+                        <option value="3">
+                            < 5 ans </option>
+                        <option value="4">Je ne sais pas </option>
+                    </select>
                 </div>
             </div>
             <div class="col-lg-3">
@@ -100,59 +102,59 @@
                 <div class="form-group">
                     <label for="s5_facade_orientation">Orientation de la facade</label>
                     <select name="s5_facade_orientation" class="form_select_opt form-control">
-                    <option value="NE" selected>NE</option>
-                    <option value="E">E</option>
-                    <option value="SE">ES</option>
-                    </select>    
+                        <option value="NE" selected>NE</option>
+                        <option value="E">E</option>
+                        <option value="SE">ES</option>
+                    </select>
                 </div>
             </div>
         </div><!---- row end--->
-        
+
     </div><!--col-lg-9 end--->
-    
-    
+
+
 </div><!---- row end--->
-<hr color=' #54ba9e' >
+<hr color=' #54ba9e'>
 
 
 <div class="row">
     <div class="col-lg-3 align-self-center">
-    <h4>Dimensions du mur extérieur</h4>
+        <h4>Dimensions du mur extérieur</h4>
     </div>
     <div class="col-lg-9">
         <div class="row">
-            <div class="col-lg-6">  
-            <div class="row">
-                <div class="col-lg-6">
-                <div class="form-group">
-                    <label for="s5_height">Hauteur</label>
-                    <input class="form-control" type="text" placeholder="In meter" name="s5_height">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label for="s5_height">Hauteur</label>
+                            <input class="form-control" type="text" placeholder="In meter" name="s5_height">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label for="s5_length">Longueur</label>
+                            <input class="form-control" type="text" placeholder="In meter" name="s5_length">
+                        </div>
+                    </div>
                 </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="form-group">
-                    <label for="s5_length">Longueur</label>
-                    <input class="form-control" type="text" placeholder="In meter" name="s5_length">
-                </div>
-                </div>
-            </div>
             </div>
 
-            <div class="col-lg-6">  
-            <div class="row">
-                <div class="col-lg-6">
-                <div class="form-group">
-                    <label for="s5_surface">Surface</label>
-                    <input class="form-control" type="text" placeholder="In meter square" name="s5_surface">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label for="s5_surface">Surface</label>
+                            <input class="form-control" type="text" placeholder="In meter square" name="s5_surface">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <label for="s5_adjoining_area">Surface mitoyenne</label>
+                            <input class="form-control" type="text" placeholder="In meter square" name="s5_adjoining_area">
+                        </div>
+                    </div>
                 </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="form-group">
-                    <label for="s5_adjoining_area">Surface mitoyenne</label>
-                    <input class="form-control" type="text" placeholder="In meter square" name="s5_adjoining_area">
-                </div>
-                </div>
-            </div>
             </div>
 
         </div>
@@ -175,7 +177,7 @@
                 <label for="s5_area4">Surface 4</label>
                 <input class="form-control" type="text" name="s5_area4">
             </div><!--col-lg-3 end--->
-            
+
         </div><!--row end--->
         <div class="row">
 
@@ -190,7 +192,7 @@
                         <select name="s5_srfc_insulator_Type" class="form_select_opt form-control">
                             <option value="0" selected>ITE</option>
                             <option value="1">ITI</option>
-                        </select>    
+                        </select>
                     </div>
                     <div class="col-lg-7"><input class="form-control" type="text" name="s5_area_tobe_insltd" placeholder="In meter square"></div>
                 </div>
@@ -203,10 +205,13 @@
         </div><!--row end--->
     </div><!--col-lg-9 end--->
 </div><!---- row end--->
-<hr color=' #54ba9e' >
+<hr color=' #54ba9e'>
 
 
-    <div class="text-right">
-        <button type="button" class="btn btn-primary prev">précédente</button>
-        <button type="button" class="btn btn-primary next">sauvegarder et suivant</button>
-    </div>    
+<div class="text-right">
+    <button type="button" class="button-29  prev">précédente</button>
+    &nbsp; 
+        <br/>
+        <br/>
+    <button type="button" class="button-29  next">sauvegarder et suivant</button>
+</div>

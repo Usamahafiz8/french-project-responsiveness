@@ -1,7 +1,9 @@
-<div class="row">
+
+<div class="text-heading">
     <div class="col-lg-12 align-self-center">
-        <h2><span style="color: #54ba9e;">Recensement de s ouvrants</span></h2>
-        <h4><span style="color: #54ba9e;">facade Nord</span></h4>
+        Configuration des murs extérieurs
+        <br />
+        facade Nord
     </div>
 </div>
 <hr color=' #54ba9e'>
@@ -83,8 +85,8 @@
     </div><!---col-lg-9---->
 </div>
 
-<br/>
-<hr color=' #54ba9e' >
+<br />
+<hr color=' #54ba9e'>
 
 <div class="row">
     <div class="col-lg-2">
@@ -108,6 +110,9 @@
 <hr color=' #54ba9e'>
 
 <div class="text-right">
-    <button type="button" class="btn btn-primary prev">précédente</button>
-    <button type="button" class="btn btn-primary next">sauvegarder et suivant</button>
+    <button type="button" class="button-29  prev">précédente</button>
+    &nbsp; 
+        <br/>
+        <br/>
+    <button type="button" class="button-29  next">sauvegarder et suivant</button>
 </div>

@@ -1,6 +1,7 @@
-<div class="row">
+
+<div class="text-heading">
     <div class="col-lg-12 align-self-center">
-        <h2><span style="color: #54ba9e;">Systéme d'émission</span></h2>
+        Systéme d'émission
     </div>
 </div>
 <hr color=' #54ba9e'>
@@ -70,6 +71,9 @@
 </div>
 
 <div class="text-right">
-    <button type="button" class="btn btn-primary prev">précédente</button>
-    <button type="button" class="btn btn-primary next">sauvegarder et suivant</button>
+    <button type="button" class="button-29  prev">précédente</button>
+    &nbsp; 
+        <br/>
+        <br/>
+    <button type="button" class="button-29  next">sauvegarder et suivant</button>
 </div>

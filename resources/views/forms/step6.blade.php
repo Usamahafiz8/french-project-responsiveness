@@ -1,11 +1,11 @@
-<div class="row">
+<div class="text-heading">
     <div class="col-lg-12 align-self-center">
-        <h2><span style="color: #54ba9e;">Recensement de s ouvrants</span></h2>
-        <h4><span style="color: #54ba9e;">facade est</span></h4>
+        Recensement de s ouvrants
+        <br />
+        facade est
     </div>
 </div>
 <hr color=' #54ba9e'>
-
 
 <div class="row">
     <div class="col-lg-12 align-self-center">
@@ -109,6 +109,9 @@
 <hr color=' #54ba9e'>
 
 <div class="text-right">
-    <button type="button" class="btn btn-primary prev">précédente</button>
-    <button type="button" class="btn btn-primary next">sauvegarder et suivant</button>
+    <button type="button" class="button-29  prev">précédente</button>
+    &nbsp; 
+        <br/>
+        <br/>
+    <button type="button" class="button-29  next">sauvegarder et suivant</button>
 </div>

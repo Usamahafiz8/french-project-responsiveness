@@ -1,8 +1,12 @@
-<div class="row">
-    <div class="col-lg-12 align-self-center">
-        <h2><span style="color: #54ba9e;">Configuration du plancher haut</span></h2>
-    </div>
+<div class="text-heading">
+    Configuration du plancher haut
 </div>
+<!-- <div class="row">
+    <div class="col-lg-12 align-self-center">
+        <h2><span style="color: #54ba9e;">
+            </span></h2>
+    </div>
+</div> -->
 <hr color=' #54ba9e'>
 <form role="form" method="POST" class="form-horizontal" id="step2form" enctype="multipart/form-data">
     @csrf
@@ -89,9 +93,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1"></div>
+                <!-- <div class="col-lg-1"></div> -->
                 <div class="col-lg-6">
-                    <div class="row">
+                        <div class="row">
                         <div class="col-sm-6">
                             <input class="form-check-input" type="radio" name="s2_attic_area" value="Isolation déroulé" id="cap_aa">
                             <label class="form-check-label" for="occupancy1">Isolation déroulé</label>
@@ -102,7 +106,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div><!---row end---->
@@ -138,19 +141,22 @@
             </div>
         </div>
 
+    </div>
+    <hr color=' #54ba9e'>
+    <div class="row">
+        <div class="col-lg-2 align-self-center">
+            <h4>Observations</h4>
         </div>
-        <hr color=' #54ba9e'>
-        <div class="row">
-            <div class="col-lg-2 align-self-center">
-                <h4>Observations</h4>
-            </div>
-            <div class="col-lg-10">
-                <textarea name="s2_comments" class="form-control" rows="3"><?php echo $step2_data->comments ?? ''; ?></textarea>
-            </div>
+        <div class="col-lg-10">
+            <textarea name="s2_comments" class="form-control" rows="3"><?php echo $step2_data->comments ?? ''; ?></textarea>
         </div>
-        <hr color=' #54ba9e'>
+    </div>
+    <hr color=' #54ba9e'>
 </form>
 <div class="text-right">
-    <button type="button" class="btn btn-primary prev">précédente</button>
-    <button type="button" class="btn btn-primary next" id="step2Submit">sauvegarder et suivant</button>
+    <button type="button" class="button-29  prev">précédente</button>
+    &nbsp;
+    <br />
+    <br />
+    <button type="button" class="button-29  next" id="step2Submit">sauvegarder et suivant</button>
 </div>

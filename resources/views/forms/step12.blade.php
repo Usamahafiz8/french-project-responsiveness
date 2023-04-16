@@ -1,40 +1,40 @@
-<div class="row">
+<div class="text-heading">
     <div class="col-lg-12 align-self-center">
-        <h2><span style="color: #54ba9e;">VENTILATION</span></h2>
+        VENTILATION
     </div>
 </div>
-<hr color=' #54ba9e' >
+<hr color=' #54ba9e'>
 
 <div class="row">
-<div class="col-lg-4">
-    <div class="form-group">
-        <label for="s12_ventillation">systéme de ventilation</label>
-        <select name="s12_ventillation" class="form_select_opt form-control">
-            <option value="0" selected> Par infiltration</option>
-            <option value="1">  Grilles hautes et basses</option>
-            <option value="2"> VMC Simple Flux Auto</option>
-            <option value="3"> VMC Double Flux </option>
-            <option value="4">  VMC Hygro A </option>
-            <option value="5"> VMC Hygro B</option>
-        </select>    
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label for="s12_ventillation">systéme de ventilation</label>
+            <select name="s12_ventillation" class="form_select_opt form-control">
+                <option value="0" selected> Par infiltration</option>
+                <option value="1"> Grilles hautes et basses</option>
+                <option value="2"> VMC Simple Flux Auto</option>
+                <option value="3"> VMC Double Flux </option>
+                <option value="4"> VMC Hygro A </option>
+                <option value="5"> VMC Hygro B</option>
+            </select>
+        </div>
     </div>
-</div>
-<div class="col-lg-4">
-    <div class="form-group">
-        <label for="s12_no_pieces">Nombre de piéces</label>
-        <input class="form-control" type="text" placeholder="" name="s12_no_pieces">
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label for="s12_no_pieces">Nombre de piéces</label>
+            <input class="form-control" type="text" placeholder="" name="s12_no_pieces">
+        </div>
     </div>
-</div>
-<div class="col-lg-4">
-    <div class="form-group">
-        <label for="s12_no_bathrooms">Nombre de salles de bains</label>
-        <input class="form-control" type="text" placeholder="" name="s12_no_bathrooms">
+    <div class="col-lg-4">
+        <div class="form-group">
+            <label for="s12_no_bathrooms">Nombre de salles de bains</label>
+            <input class="form-control" type="text" placeholder="" name="s12_no_bathrooms">
+        </div>
     </div>
-</div>
 </div> <!----row1 end-->
 
 
-<hr color=' #54ba9e' >
+<hr color=' #54ba9e'>
 <div class="row">
     <div class="col-lg-3 align-self-center">
         <h4>Systeme De Chauffage et ECS</h4>
@@ -51,7 +51,7 @@
                         <option value="Wood"> Bois </option>
                         <option value="Electricity"> Electricité </option>
                         <option value="Coal"> Charbon</option>
-                    </select>    
+                    </select>
                 </div>
             </div>
             <div class="col-lg-3">
@@ -65,7 +65,7 @@
                         <option value="4">Poêle à bois</option>
                         <option value="5"> Insert</option>
                         <option value="6"> Cheminée</option>
-                    </select>    
+                    </select>
                 </div>
             </div>
             <div class="col-lg-3">
@@ -94,7 +94,7 @@
                     <select name="s12_plcd_in_heated_vol" class="form_select_opt form-control">
                         <option value="1" selected>Oui</option>
                         <option value="0">Non</option>
-                    </select>    
+                    </select>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -108,8 +108,11 @@
     </div><!----col-lg-9 end-->
 </div>
 
-<hr color=' #54ba9e' >
-    <div class="text-right">
-        <button type="button" class="btn btn-primary prev">précédente</button>
-        <button type="button" class="btn btn-primary next">sauvegarder et suivant</button>
-    </div>    
+<hr color=' #54ba9e'>
+<div class="text-right">
+    <button type="button" class="button-29  prev">précédente</button>
+    &nbsp; 
+        <br/>
+        <br/>
+    <button type="button" class="button-29  next">sauvegarder et suivant</button>
+</div>

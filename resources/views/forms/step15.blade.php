@@ -1,9 +1,9 @@
-<div class="row">
+<div class="text-heading">
     <div class="col-lg-12 align-self-center">
-        <h2><span style="color: #54ba9e;">Compteur électrique</span></h2>
+        Compteur électrique
     </div>
 </div>
-<hr color=' #54ba9e' >
+<hr color=' #54ba9e'>
 
 <div class="row">
     <div class="col-lg-4">
@@ -11,7 +11,7 @@
         <select name="s15_meter_type" class="form_select_opt form-control">
             <option value="1" selected>Monophasée</option>
             <option value="3">Triphasée</option>
-        </select>    
+        </select>
     </div>
     <div class="col-lg-4">
         <label for="s15_meter_power">Puissance du compteur</label>
@@ -25,7 +25,7 @@
             <option value="24 kVA"> 24 kVA </option>
             <option value="30 kVA"> 30 kVA </option>
             <option value="36 kVA"> 36 kVA </option>
-        </select>    
+        </select>
     </div>
     <div class="col-lg-4">
         <label for="s15_photo">Photo </label>
@@ -35,6 +35,6 @@
 
 
 <div class="text-right">
-    <button type="button" class="btn btn-primary prev">précédente</button>
-    <button type="button" class="btn btn-success complete">complet</button>
+    <button type="button" class="button-29  prev">précédente</button> &nbsp;
+    <button type="button" class="button-sucss  complete">complet</button>
 </div>

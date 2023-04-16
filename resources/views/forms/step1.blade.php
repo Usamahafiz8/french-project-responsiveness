@@ -1,15 +1,6 @@
-<!-- <div class="row"> -->
-<!-- <div class="col-lg-12 align-self-center"> -->
 <div class="text-heading">
-  <!-- <h2> -->
-  <!-- <span style="color: #54ba9e;"> -->
   GENERAL INFORMATIONS
-  <!-- </span> -->
-  <!-- </h2> -->
 </div>
-<!-- </div> -->
-<!-- </div> -->
-<!-- <hr color=' #54ba9e' > -->
 <hr color=' #54ba9e'>
 <form role="form" method="POST" class="form-horizontal" id="step1form" enctype="multipart/form-data">
   @csrf
